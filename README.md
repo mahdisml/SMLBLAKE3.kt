@@ -9,8 +9,6 @@ Special Thanks to rctcwyvrn !
 
 He Translated Blake3 reference implementation from Rust to Java https://github.com/rctcwyvrn/blake3
 
-AND
-
 I Optimized and Translated it to Kotlin
 
 It's not fast as native implementation of Rust(and java jni native)
