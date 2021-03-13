@@ -30,3 +30,19 @@ BENCHMARK :
 * sha512 = 101 ms
 
 * blake3Native(java jni) = 22 ms                 
+
+### Examples
+```java
+        // Hashing bytes
+        val hasher = SMLBLAKE3.newInstance()
+        hasher.update("This is a string".toByteArray())
+        val hexhash : String = hasher.hexdigest()
+```
+```java
+        // Hashing files
+        val hasher = SMLBLAKE3.newInstance()
+        hasher.update(File(filename))
+        val filehash : String = hasher.hexdigest()
+```
+
+If what you want are java bindings for the fully optimized blake3, try: https://github.com/sken77/BLAKE3jni
