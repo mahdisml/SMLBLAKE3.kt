@@ -21,7 +21,7 @@ BENCHMARK :
 
 * blake3Java = 293 ms
 
-* smlblake3.kt = 269 ms
+* SMLBLAKE3.kt = 269 ms
 
 * sha1   = 222 ms
 
