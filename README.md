@@ -1,5 +1,5 @@
 # SMLBLAKE3.kt
-Kotlin BLAKE3 implementation (cryptographic hash function )
+Kotlin BLAKE3 implementation (cryptographic hash function)
 
 Mahdi Safarmohammadloo
 
